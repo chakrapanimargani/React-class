@@ -12,7 +12,7 @@ class HomePage extends Component {
 			return(
 				<div><label>this is home page</label>
 				<Link to={'/about'}>
-					<button className="w3-button w3-black" onClick={this.navigationPage.bind()} >goto about page</button>
+					<button className="w3-button w3-black" onClick={this.navigationPage.bind()} >goto about page11 </button>
 				</Link>
 			
 				</div>
