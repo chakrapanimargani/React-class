@@ -11,10 +11,12 @@ import SelectBox from './components/test';
 import EventExample from './components/event';
 import FormExample from './components/formExample';
 
+import routes from "./routes";
+
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    <FormExample />
+{routes}
   </Provider>
   , document.querySelector('.container'));
